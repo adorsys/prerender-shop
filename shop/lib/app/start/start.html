@@ -1,0 +1,46 @@
+<head>
+    <a ui-sref="start">sysroda shop</a>
+    <h1>Willkommen beim sysroda Shop</h1>
+</head>
+
+<main>
+    <section class="products">
+        <h2>Finden Sie hier unsere Produkte aus den Kategorien Holz, Wolle und Stahl</h2>
+        <ul>
+            <li>
+                <a ui-sref="products({ category : 'holz' })">
+                    <h3>{{ content['holz'].heading }}</h3>
+                    <img ng-src="/app/img/holz1.jpg" alt="bestes Holz">
+                </a>
+                <p>{{ content['holz'].intro }}</p>
+            </li>
+            <li>
+                <a ui-sref="products({ category : 'wolle' })">
+                    <h3>{{ content['wolle'].heading }}</h3>
+                    <img ng-src="/app/img/wolle1.jpg" alt="feinste Wolle">
+                </a>
+                <p>{{ content['wolle'].intro }}</p>
+            </li>
+            <li>
+                <a ui-sref="products({ category : 'stahl' })">
+                    <h3>{{ content['stahl'].heading }}</h3>
+                    <img ng-src="/app/img/stahl1.jpg" alt="härtester Stahl">
+                </a>
+                <p>{{ content['stahl'].intro }}</p>
+            </li>
+        </ul>
+    </section>
+    <section class="search">
+        <h2>Suchen sie nach Produkten</h2>
+        <form action="#!/suche" ng-submit="search()">
+            <input type="text" name="q" ng-model="q">
+            <button type="submit">suche</button>
+        </form>
+    </section>
+</main>
+
+<ng-include src="'/app/content/ad.html'"></ng-include>
+
+<footer>
+    <a ng-click="imprint()">Impressum</a>
+</footer>

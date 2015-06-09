@@ -1,0 +1,14 @@
+{
+  "name": "prerender-shop",
+  "private": true,
+  "version": "0.0.1",
+  "description": "example shop prerendered by prerender.io",
+  "author": "Florian Hirsch",
+  "dependencies": {
+    "express": "4.12.4",
+    "prerender-node": "1.2.1"
+  },
+  "scripts" : {
+    "start": "node /usr/src/app/lib/server.js"
+  }
+}

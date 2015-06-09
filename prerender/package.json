@@ -1,0 +1,13 @@
+{
+  "name": "prerender",
+  "private": true,
+  "version": "0.0.1",
+  "description": "the local prerender engine",
+  "author": "Florian Hirsch",
+  "dependencies": {
+    "prerender": "3.18.0"
+  },
+  "scripts" : {
+    "start": "node /usr/src/app/lib/server.js"
+  }
+}

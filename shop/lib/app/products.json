@@ -1,0 +1,101 @@
+{
+  "holz" : {
+    "heading" : "Das beste aus Holz",
+    "intro" : "Holz bezeichnet im allgemeinen Sprachgebrauch das harte Gewebe der Sprossachsen (Stamm, Äste und Zweige) von Bäumen und Sträuchern. Botanisch wird Holz als das vom Kambium erzeugte sekundäre Xylem der Samenpflanzen definiert. Nach dieser Definition sind die holzigen Gewebe der Palmen und anderer höherer Pflanzen allerdings kein Holz im engeren Sinn. Kennzeichnend ist aber auch hier die Einlagerung von Lignin in die Zellwand. In einer weitergehenden Definition wird Holz daher auch als lignifiziertes (verholztes) pflanzliches Gewebe begriffen.",
+    "items" : [
+      {
+        "id" : "grosser-stamm",
+        "name" : "Großer Stamm",
+        "img" : "/app/img/holz1.jpg",
+        "description" : "Das ist ein wirklich großer Stamm, der größte den wir im Sortiment haben",
+        "price" : "1299.99",
+        "color" : "Dunkelbraun",
+        "rating" : 3
+      },
+      {
+        "id" : "bretter",
+        "name" : "Bretter",
+        "img" : "/app/img/holz2.jpg",
+        "description" : "Drei Bretter und etwas Grünzeug",
+        "price" : "899.99",
+        "color" : "Braun",
+        "rating" : 2
+      },
+      {
+        "id" : "kleine-staemme",
+        "name" : "Kleine Stämme",
+        "img" : "/app/img/holz3.jpg",
+        "description" : "Kleine Stämme, so weit das Auge reicht",
+        "price" : "399.99",
+        "color" : "Braun",
+        "rating" : 5
+      }
+    ]
+  },
+  "wolle" : {
+    "heading" : "Stricken sie sich etwas aus feinster Wolle",
+    "intro" : "Als Wolle bezeichnet man nach dem Textilkennzeichnungsgesetz die weichen Haare des Fells (im Gegensatz zum Deckhaar) vor allem der Schafe. Im weiteren Sinne werden damit auch die von anderen Säugetieren (z. B. Ziegen, Kamelartige und Angorakaninchen) gewonnenen spinnfähigen Haare bezeichnet, die häufig mit einem tierspezifischen Vorsatz versehen werden (z. B. Angora-Wolle) oder ausdrücklich als „Haar“ (z. B. Kamelhaar) imponieren.",
+    "items" : [
+      {
+        "id" : "gruene-wolle",
+        "name" : "Grüne Wolle",
+        "img" : "/app/img/wolle1.jpg",
+        "description" : "Die grünste Wolle für grüne Pullis",
+        "price" : "8.99",
+        "color" : "Grün",
+        "rating" : 4
+      },
+      {
+        "id" : "blaue-wolle",
+        "name" : "Blaue Wolle",
+        "img" : "/app/img/wolle2.jpg",
+        "description" : "Passend für blaue Socken: Blaue Wolle",
+        "price" : "8.99",
+        "color" : "Blau",
+        "rating" : 3
+      },
+      {
+        "id" : "rote-wolle",
+        "name" : "Rote Wolle",
+        "img" : "/app/img/wolle3.jpg",
+        "description" : "Die rote Wolle für den roten Schaal",
+        "price" : "8.99",
+        "color" : "Rot",
+        "rating" : 5
+      }
+    ]
+  },
+  "stahl" : {
+    "heading" : "Unsere härtesten Produkte aus Stahl",
+    "intro" : "Als Stahl werden metallische Legierungen bezeichnet, deren Hauptbestandteil Eisen ist und die (im Unterschied zum Gusseisen) umformtechnisch verarbeitet werden können. Genauere Definitionen sind nicht einheitlich, einige sind durch die heutige Vielfalt an technischen Legierungen ungenau geworden.",
+    "items" : [
+      {
+      "id" : "muttern",
+      "name" : "Muttern",
+      "img" : "/app/img/stahl1.jpg",
+      "description" : "Hält auf jeder Schraube",
+      "price" : "4.99",
+      "color" : "grau",
+      "rating" : 5
+      },
+      {
+        "id" : "zahnraeder",
+        "name" : "Zahnräder",
+        "img" : "/app/img/stahl2.jpg",
+        "description" : "Hier greift ein Rädchen ins andere",
+        "price" : "8.99",
+        "color" : "grau",
+        "rating" : 3
+      },
+      {
+        "id" : "niete",
+        "name" : "Niete",
+        "img" : "/app/img/stahl3.jpg",
+        "description" : "Garantiert keine Nieten unsere Niete",
+        "price" : "12.99",
+        "color" : "grau",
+        "rating" : 3
+      }
+    ]
+  }
+}

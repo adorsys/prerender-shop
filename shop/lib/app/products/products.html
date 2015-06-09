@@ -1,0 +1,25 @@
+<head>
+    <a ui-sref="start">sysroda shop</a>
+    <h1>{{ products.heading }}</h1>
+</head>
+
+<main>
+    <section class="products">
+        <p>{{ products.intro }}</p>
+        <ul>
+            <li ng-repeat="item in products.items" itemscope itemtype="http://schema.org/Product">
+                <a itemprop="url" ui-sref="product({ category : category, product : item.id })">
+                    <h2 itemprop="name">{{ item.name }}</h2>
+                    <img itemprop="image" ng-src="{{ item.img }}" alt="{{ item.name }}">
+                </a>
+                <p itemprop="description">{{ item.description }}</p>
+                <p>Preis:
+                    <span itemprop="priceCurrency" content="EUR">€</span>
+                    <span itemprop="price" content="{{ item.price }}">{{ item.price | number : 2 }}</span>
+                </p>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<ng-include src="'/app/content/ad.html'"></ng-include>

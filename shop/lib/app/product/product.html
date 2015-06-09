@@ -1,0 +1,24 @@
+<head>
+    <a ui-sref="start">sysroda shop</a>
+    <h1>{{ product.name }} zum besten Preis</h1>
+</head>
+
+<main>
+    <section class="product">
+        <img itemprop="image" ng-src="{{ product.img }}" alt="{{ product.name }}">
+        <p itemprop="description">{{ product.description }}</p>
+        <p>Preis:
+            <span itemprop="priceCurrency" content="EUR">€</span>
+            <span itemprop="price" content="{{ product.price }}">{{ product.price | number : 2 }}</span>
+        </p>
+        <p>Farbe:
+            <span itemprop="color">{{ product.color }}</span>
+        </p>
+        <p itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+            <meta itemprop="worstRating" content = "1"/>
+            <span itemprop="ratingValue">{{ product.rating }}</span>/<span itemprop="bestRating">5</span> Sterne
+        </p>
+    </section>
+</main>
+
+<ng-include src="'/app/content/ad.html'"></ng-include>
