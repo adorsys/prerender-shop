@@ -24,4 +24,5 @@ app.get('/', function(req, res){
 
 app.listen(PORT);
 
-console.log('angular app running on http://' + HOST + ' using prerender service on ' + prerenderServiceUrl);
+console.log('Angular app running on http://' + HOST + ' using prerender service on ' + prerenderServiceUrl);
+console.log('Please change PUBLIC_HOST_ADDRESS in the Dockerfile if this is not your host address or you are running behind a proxy')
