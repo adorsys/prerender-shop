@@ -10,7 +10,8 @@
         "description" : "Das ist ein wirklich großer Stamm, der größte den wir im Sortiment haben",
         "price" : "1299.99",
         "color" : "Dunkelbraun",
-        "rating" : 3
+        "rating" : 3,
+        "reviews" : 12
       },
       {
         "id" : "bretter",
@@ -19,7 +20,8 @@
         "description" : "Drei Bretter und etwas Grünzeug",
         "price" : "899.99",
         "color" : "Braun",
-        "rating" : 2
+        "rating" : 2,
+        "reviews" : 36
       },
       {
         "id" : "kleine-staemme",
@@ -28,7 +30,8 @@
         "description" : "Kleine Stämme, so weit das Auge reicht",
         "price" : "399.99",
         "color" : "Braun",
-        "rating" : 5
+        "rating" : 5,
+        "reviews" : 24
       }
     ]
   },
@@ -43,7 +46,8 @@
         "description" : "Die grünste Wolle für grüne Pullis",
         "price" : "8.99",
         "color" : "Grün",
-        "rating" : 4
+        "rating" : 4,
+        "reviews" : 64
       },
       {
         "id" : "blaue-wolle",
@@ -52,7 +56,8 @@
         "description" : "Passend für blaue Socken: Blaue Wolle",
         "price" : "8.99",
         "color" : "Blau",
-        "rating" : 3
+        "rating" : 3,
+        "reviews" : 29
       },
       {
         "id" : "rote-wolle",
@@ -61,7 +66,8 @@
         "description" : "Die rote Wolle für den roten Schaal",
         "price" : "8.99",
         "color" : "Rot",
-        "rating" : 5
+        "rating" : 5,
+        "reviews" : 12
       }
     ]
   },
@@ -76,7 +82,8 @@
       "description" : "Hält auf jeder Schraube",
       "price" : "4.99",
       "color" : "grau",
-      "rating" : 5
+      "rating" : 5,
+        "reviews" : 2
       },
       {
         "id" : "zahnraeder",
@@ -85,7 +92,8 @@
         "description" : "Hier greift ein Rädchen ins andere",
         "price" : "8.99",
         "color" : "grau",
-        "rating" : 3
+        "rating" : 3,
+        "reviews" : 18
       },
       {
         "id" : "niete",
@@ -94,7 +102,8 @@
         "description" : "Garantiert keine Nieten unsere Niete",
         "price" : "12.99",
         "color" : "grau",
-        "rating" : 3
+        "rating" : 3 ,
+        "reviews" :7
       }
     ]
   }

@@ -4,19 +4,19 @@
 </head>
 
 <main>
-    <section class="product">
+    <section class="product" itemscope itemtype="http://schema.org/Product">
         <img itemprop="image" ng-src="{{ product.img }}" alt="{{ product.name }}">
+        <p><span itemprop="name">{{ product.name }}</span> von <span itemprop="brand">sysroda</span></p>
         <p itemprop="description">{{ product.description }}</p>
-        <p>Preis:
-            <span itemprop="priceCurrency" content="EUR">€</span>
-            <span itemprop="price" content="{{ product.price }}">{{ product.price | number : 2 }}</span>
-        </p>
         <p>Farbe:
             <span itemprop="color">{{ product.color }}</span>
         </p>
-        <p itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-            <meta itemprop="worstRating" content = "1"/>
-            <span itemprop="ratingValue">{{ product.rating }}</span>/<span itemprop="bestRating">5</span> Sterne
+        <p itemprop="offers" itemscope itemtype="http://schema.org/Offer">Preis:
+            <span itemprop="priceCurrency" content="EUR">€</span>
+            <span itemprop="price" content="{{ product.price }}">{{ product.price | number : 2 }}</span>
+        </p>
+        <p itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+            <span itemprop="ratingValue">{{ product.rating }}</span> Sterne (<span itemprop="reviewCount">{{ product.reviews }}</span> Bewertungen)
         </p>
     </section>
 </main>
