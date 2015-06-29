@@ -13,7 +13,7 @@
                     <img itemprop="image" ng-src="{{ item.img }}" alt="{{ item.name }}">
                 </a>
                 <p itemprop="description">{{ item.description }}</p>
-                <p>Preis:
+                <p itemprop="offers" itemscope itemtype="http://schema.org/Offer">Preis:
                     <span itemprop="priceCurrency" content="EUR">€</span>
                     <span itemprop="price" content="{{ item.price }}">{{ item.price | number : 2 }}</span>
                 </p>
